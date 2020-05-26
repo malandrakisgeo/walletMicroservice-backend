@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="walletmicroservice.Model.PlayerEntity">
+        <table name="PLAYER" schema="walletmicroservice" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="ID" precision="11"/>
+            </id>
+            <basic name="connectedWallet">
+                <column name="CONNECTED_WALLET" precision="11"/>
+            </basic>
+            <basic name="name">
+                <column name="NAME"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

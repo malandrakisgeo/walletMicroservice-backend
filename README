@@ -1,0 +1,22 @@
+DESCRIPTION:
+
+A simple wallet microservice running on the JVM that manages credit/debit transactions on behalf of players.
+A monetary account holds the current balance for a player. The balance can be modified by registering transactions on the account, either debit
+transactions (removing funds) or credit transactions (adding funds).
+
+It is based on a programming challenge found on the internet, and meant to be used for educational purposes only.
+
+An Angular frontend for it is available on  https://github.com/malandrakisgeo/micro-frontend  .
+-------------------------------------------
+
+BEFORE YOU BEGIN:
+Make sure you create a mySQL database where the SQL script available in /resources/database.sql can be run.
+Manage to modify the /resources/application.properties inserting  your own credentials.
+-----------------------------------------------------------------------------------------------------
+
+HOW TO RUN:
+Just run the program in any Java IDE. It was made with IntelliJ, and it should not be a problem to run it on e.g. NetBeans or Eclipse.
+
+The default url of the backend is http://localhost:8080/.
+The frontend is supposed to send requests from http://localhost:4200.
+
