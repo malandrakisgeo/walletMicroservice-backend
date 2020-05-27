@@ -7,6 +7,20 @@ transactions (removing funds) or credit transactions (adding funds).
 It is based on a programming challenge found on the internet, and meant to be used for educational purposes only.
 
 An Angular frontend for it is available on  https://github.com/malandrakisgeo/micro-frontend  .
+
+--------------------------------------------
+THE CHALLENGE: 
+The programmer was supposed to create a REST API and an implementation that fulfils the requirements detailed
+below and honours the constraints.
+
+Requirements and desired functionalities: 
+• Current balance per player
+• Debit /Withdrawal per player A debit transaction will only succeed if there are
+sufficient funds on the account (balance - debit amount >= 0). If the transaction id is not unique, the operation must fail.
+• Credit per player.
+• Transaction history per player
+• The solution need not persist data across restarts but it is a bonus if it does.
+
 -------------------------------------------
 
 BEFORE YOU BEGIN:
